@@ -1,0 +1,83 @@
+body {
+    font-family: 'Nunito';
+    background-color: #F5F5DC; /* Marrom claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D2B48C; /* Marrom mais escuro */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.topic-button {
+    background-color: #FFF;
+    border: 2px solid #D2B48C;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex; /* Altera a disposição para flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    width: 300px; /* Largura ajustada para acomodar a imagem e o texto lado a lado */
+    transition: background-color 0.3s;
+    gap: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.topic-button img {
+    width: 80px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 80px;
+    border-radius: 10%;
+}
+
+.topic-button span {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    text-align: left; /* Alinha o texto à esquerda */
+    font-family: 'Nunito', sans-serif; /* Aplica a fonte Nunito */
+    line-height: 1.2;
+}
+
+.topic-button:hover {
+    background-color: #D2B48C;
+    color: white;
+}
+
+
+.content {
+    display: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 2px solid #D2B48C;
+}
+
+footer {
+    background-color: #D2B48C;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

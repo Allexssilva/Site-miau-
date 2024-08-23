@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Programação</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1>Formas de Estudar Programação</h1>
+    </header>
+    
+    <main>
+        <section class="topics">
+            <button class="topic-button" onclick="toggleContent('content1')">
+                <img src="https://i.pinimg.com/236x/5c/0f/95/5c0f952a6c43db1ee811dd24184924d7.jpg" alt="Gatinho 1">
+                <span>Fundamentos da Programação</span>
+            </button>
+            <div id="content1" class="content">
+                <p>Os fundamentos da programação são os conceitos básicos que formam a base para o desenvolvimento de qualquer tipo de software. Eles incluem:<br>
+
+                    1. <b>Lógica de Programação</b>: A capacidade de criar uma sequência de passos lógicos que resolvem um problema. Isso envolve o uso de estruturas como algoritmos, fluxogramas e pseudocódigo para planejar a solução antes de codificá-la. <br>
+                    
+                    2. <b>Variáveis e Tipos de Dados</b>: Variáveis são contêineres que armazenam dados, como números, textos ou valores booleanos (verdadeiro/falso). Cada variável tem um tipo de dado que determina o que pode ser armazenado e como será tratado.<br>
+                    
+                    3. <b>Estruturas de Controle</b>:
+                       - <b>Condicionais (if/else)</b>: Permitem que o programa tome decisões com base em condições específicas. Por exemplo, "se a temperatura for maior que 30°C, ligue o ventilador".<br>
+                       - <b>Loops (for, while)</b>: Permitem que o código execute repetidamente uma série de instruções enquanto uma condição é verdadeira, como percorrer uma lista de itens.<br>
+                    
+                    4. <b>Funções</b>: Blocos de código reutilizáveis que realizam uma tarefa específica. Funções ajudam a organizar o código e evitam repetição. Elas podem receber entradas (parâmetros) e retornar saídas (resultados).<br>
+                    
+                    5. <b>Estruturas de Dados</b>: Formas de organizar e armazenar dados para facilitar o acesso e a modificação. As estruturas comuns incluem listas, arrays, filas, pilhas, e dicionários.<br>
+                    
+                    6. <b>Entrada e Saída (I/O)</b>: Processos de receber dados de fontes externas (como usuários ou arquivos) e enviar resultados de volta. Isso inclui leitura de teclado, arquivos e exibição de informações na tela.<br>
+                    
+                    7. <b>Depuração e Testes</b>: Identificar e corrigir erros no código. Depuração envolve o uso de ferramentas para acompanhar a execução do programa, enquanto testes verificam se o programa funciona como esperado.</p>
+            </div>
+
+            <button class="topic-button" onclick="toggleContent('content2')">
+                <img src="https://i.pinimg.com/564x/53/c9/6d/53c96d453831de7e58038572c6f1e84c.jpg" alt="Gatinho 2">
+                <span>Principais linguagens de programação</span>
+            </button>
+            <div id="content2" class="content">
+                <p>Uma linguagem de programação é um conjunto de instruções e regras que permitem aos programadores comunicar-se com os computadores para criar software, aplicativos, websites e sistemas operacionais. Usando uma linguagem de programação, os desenvolvedores podem escrever código que instrui o computador a realizar tarefas específicas, desde cálculos simples até a construção de complexas plataformas digitais.<br>
+
+                    As linguagens de programação variam em termos de complexidade, propósito, e paradigma (modo de pensar e resolver problemas), podendo ser usadas para diferentes tipos de desenvolvimento, como web, mobile, sistemas embarcados, inteligência artificial, e muito mais.<br>
+    
+                    
+                    1. <b>Python</b> <br>
+                       - <b>Características</b>: Simples, fácil de ler, e versátil.<br>
+                       - <b>Uso</b>: Desenvolvimento web, ciência de dados, aprendizado de máquina, automação, e muito mais.<br>
+                       - <b>Por que usar</b>: Ótima para iniciantes devido à sua sintaxe clara e vasta comunidade de suporte.<br>
+                    
+                    2. <b>JavaScript</b><br>
+                       - <b>Características</b>: Linguagem de script executada principalmente no lado do cliente (navegador).<br>
+                       - <b>Uso</b>: Desenvolvimento de websites interativos, aplicações web, desenvolvimento frontend e backend (com Node.js).<br>
+                       - <b>Por que usar</b>: Fundamental para o desenvolvimento web moderno.<br>
+                    
+                    3. <b>Java</b><b>
+                       - <b>Características</b>: Fortemente tipada, orientada a objetos, e multiplataforma.<br>
+                       - <b>Uso</b>: Desenvolvimento de aplicativos Android, sistemas corporativos, e aplicações web.<br>
+                       - <b>Por que usar</b>: Estável e amplamente utilizada em grandes empresas.<br>
+                    
+                    4. <b>C++</b><b>
+                       - <b>Características</b>: Derivada de C, mas com suporte a programação orientada a objetos.<br>
+                       - <b>Uso</b>: Desenvolvimento de software de sistema, jogos, aplicações de alta performance.<br>
+                       - <b>Por que usar</b>: Oferece controle detalhado sobre recursos de hardware e é usada em aplicações que exigem alta performance.<br>
+                    
+                    5. <b>C# (C-Sharp)</b><b>
+                       - <b>Características</b>: Criada pela Microsoft, orientada a objetos e baseada em C++.<br>
+                       - <b>Uso</b>: Desenvolvimento de aplicativos para Windows, jogos (com Unity), e aplicações web.<br>
+                       - <b>Por que usar</b>: Integrada ao ecossistema da Microsoft, é ótima para desenvolvimento em .NET.<br></p>
+            </div>
+
+            <button class="topic-button" onclick="toggleContent('content3')">
+                <img src="https://i.pinimg.com/564x/c7/67/10/c76710f256b76d001c6ccdf5449119ae.jpg" alt="Gatinho 2">
+                <span>Estruturas de Dados</span>
+            </button>
+            <div id="content3" class="content">
+                <p>Conteúdo sobre estruturas de dados...</p>
+            </div>
+
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Allie</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
