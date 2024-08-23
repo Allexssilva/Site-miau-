@@ -37,7 +37,7 @@ main {
     cursor: pointer;
     display: flex; /* Altera a disposição para flexbox */
     align-items: center; /* Centraliza verticalmente */
-    width: 300px; /* Largura ajustada para acomodar a imagem e o texto lado a lado */
+    width: 400px; /* Largura ajustada para acomodar a imagem e o texto lado a lado */
     transition: background-color 0.3s;
     gap: 10px; /* Espaçamento entre a imagem e o texto */
 }
@@ -77,7 +77,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: static;
     bottom: 0;
-    width: 100%;
+    width: 98,5%;
 }
